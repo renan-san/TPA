@@ -1,0 +1,80 @@
+mport java.util.Scanner;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		
+		double salario1,salario2,salario3,salario4,inss,desconto;
+		
+		Scanner in = new Scanner(System.in);
+		System.out.println("Digite o salario do primeiro funcionario");
+		salario1 = in.nextDouble();
+		
+		System.out.println("Digite o salario do segundo funcionario");
+		salario2 = in.nextDouble();
+		
+		System.out.println("Digite o salario do terceiro funcionario");
+		salario3 = in.nextDouble();
+		
+		System.out.println("Digite o salario do quarto funcionario");
+		salario4 = in.nextDouble();
+		
+		
+		
+		if (salario1 <2000)
+		{
+			inss = (salario1*8.5) / 100;
+			System.out.println("o salario é igual a "+salario1+" e o desconto é "+inss+"%");
+		}
+
+		if (salario1 >=2000)
+		{
+			inss = (salario1*11) / 100;
+			System.out.println("o salario é igual a "+salario1+" e o desconto é "+inss+"%");
+		}
+		
+
+		if (salario2 <2000)
+		{
+			inss = (salario2*8.5) / 100;
+			System.out.println("o salario é igual a "+salario2+" e o desconto é "+inss+"%");
+		}
+
+		if (salario2 >=2000)
+		{
+			inss = (salario2*11) / 100;
+			System.out.println("o salario é igual a "+salario2+" e o desconto é "+inss+"%");
+		}
+		
+
+		if (salario3 <2000)
+		{
+			inss = (salario3*8.5) / 100;
+			System.out.println("o salario é igual a "+salario3+" e o desconto é "+inss+"%");
+		}
+
+		if (salario3 >=2000)
+		{
+			inss = (salario3*11) / 100;
+			System.out.println("o salario é igual a "+salario3+" e o desconto é "+inss+"%");
+		}
+		
+		
+
+		if (salario4 <2000)
+		{
+			inss = (salario4*8.5) / 100;
+			System.out.println("o salario é igual a "+salario4+" e o desconto é "+inss+"%");
+		}
+
+		if (salario4 >=2000)
+		{
+			inss = (salario4*11) / 100;
+			System.out.println("o salario é igual a "+salario4+" e o desconto é "+inss+"%");
+		}
+
+	
+	
+	}
+	
+}

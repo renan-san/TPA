@@ -1,0 +1,72 @@
+
+	import java.util.Scanner;
+
+	public class Exercicio3 {
+
+	   public static void main(String[] args) {
+
+	       
+
+	       String[] nomes = new String[10];
+
+	       int[] idades = new int[10];
+
+	       int idadeNova = 99;
+
+	       String nomeNova = "";
+
+	       int idadeVelha = 0;
+
+	       String nomeVelha = "";
+
+	       Scanner scan = new Scanner(System.in);
+
+	       
+	       
+	       for (int i = 0; i < 10; i++) {
+
+	           System.out.println("Digite o nome: ");
+
+	           nomes[i] = scan.next();
+
+	           System.out.println("Digite a idade:");
+
+	           idades[i] = scan.nextInt();
+
+	       }
+
+	      
+
+	       for (int i = 0; i < 10; i++) {
+
+	           if (idades[i] < idadeNova) {
+
+	               idadeNova = idades[i];
+
+	               nomeNova = nomes[i];
+
+	           }
+
+	           if (idades[i] > idadeVelha) {
+
+	               idadeVelha = idades[i];
+
+	               nomeVelha = nomes[i];
+
+	           }
+
+	       }
+
+	       
+
+	       System.out.println("Pessoa Mais nova Nome: " + nomeNova);
+
+	       System.out.println("Pessoa Mais nova Idade: " + idadeNova);
+
+	       System.out.println("Pessoa Mais velha Nome : " + nomeVelha);
+
+	       System.out.println("Pessoa Mais velha Idade: " + idadeVelha);
+
+	   }
+
+	}

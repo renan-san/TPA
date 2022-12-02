@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class Exercicio7 {
+
+	public static void main(String[] args) {
+		
+		double temperatura,C;
+		
+		
+		
+		System.out.println("Digite a temperatura");
+		
+
+		Scanner in = new Scanner(System.in);
+		temperatura = in.nextDouble();
+		
+		C = (temperatura - 32) * 5/9;
+		
+		if(C<15)
+		{
+			System.out.println("Frio ");
+		}
+		if(C>15 && C<22)
+		{
+			System.out.println("Ameno");
+		}
+		if(C>22)
+		{
+			System.out.println("Calor");
+		}
+
+		
+		
+		
+	}
+
+}

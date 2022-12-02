@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Exercicio4 {
+
+	public static void main(String[] args) {
+		
+		double precovenda,preco,margem;
+		int i=1;
+		
+		System.out.println("Digite o preço do produto");
+		Scanner in = new Scanner(System.in);
+		preco = in.nextDouble();
+		
+		System.out.println("Digite a margem de venda");
+		margem = in.nextDouble();
+		
+		precovenda = (margem/preco);
+		
+		System.out.println(precovenda);
+		
+		while(i != 0)
+		{
+			System.out.println("Quer continuar o programa?");
+			i = in.nextInt();
+					
+			
+		}
+			
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Exercicio2 {
+
+	public static void main(String[] args) {
+		
+		int numero,i=0,tabuada;
+		Scanner in = new Scanner(System.in);
+		System.out.println("Digite o número para descobrir sua tabuada");
+		numero = in.nextInt();
+		
+		while(i<=10) {
+			tabuada = numero *i;
+			i++;
+			System.out.println(tabuada);
+		}
+
+	}
+
+}

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Exercicio5 {
+
+	public static void main(String[] args) {
+		
+		int salario;
+		Scanner in = new Scanner(System.in);
+		System.out.println("Digite o sálario");
+		salario = in.nextInt();
+		
+		if(salario<954)
+		{
+			System.out.println("Está abaixo do salario minimo");
+		}else
+		{
+			System.out.println("Está acima do salario minimo");
+		}
+	}
+
+}
